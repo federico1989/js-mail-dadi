@@ -4,13 +4,13 @@ var mail = (prompt("Inserisci la tua email"));
 var correctMail = ["boolean@gmail.com","boolean@hotmail.it"];
 // Stampa un messaggio appropriato sull’esito del controllo.
 
-var verificato = false;
+var check = false;
 for (var i = 0; i < correctMail.length; i++) {
   if (mail == correctMail[i]) {
-  verificato = true;
+  check = true;
   }
 }
-if (verificato) {
+if (check) {
 alert("La tua email è corretta")
 }
 else {
